@@ -31,3 +31,5 @@ azure-mgmt-compute
 azure.ai.textanalytics
 azure-core
 openai
+pydantic[email]
+email-validator
