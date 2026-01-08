@@ -29,4 +29,4 @@ azure-mgmt-resource
 azure-mgmt-storage
 azure-mgmt-compute
 azure.ai.textanalytics
-azure.core.credentials
+azure-core
