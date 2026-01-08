@@ -33,3 +33,5 @@ azure-core
 openai
 pydantic[email]
 email-validator
+
+fastapi.middleware.cors
