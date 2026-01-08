@@ -21,9 +21,21 @@ from SkinWare.azure_openai_report import generate_explainable_report
 #from app.utils.serializer import mongo_safe
 import json
 from datetime import datetime
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="SkinAware API")
-
+# 🔥 CORS FIX (MANDATORY)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",   # Vite frontend
+        "http://localhost:3000",
+        "https://skinaware-backend.onrender.com"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 #-------Default---------
 @app.get("/")
 def root():
