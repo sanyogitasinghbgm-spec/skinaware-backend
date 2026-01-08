@@ -1,0 +1,22 @@
+# -------- Backend --------
+fastapi
+uvicorn
+python-multipart
+pymongo
+pillow
+passlib[bcrypt]
+python-jose[cryptography]
+python-dotenv
+cloudinary
+# -------- ML & CV --------
+opencv-python
+numpy
+scikit-image
+scikit-learn
+torch
+torchvision
+Pillow
+matplotlib
+tqdm
+mediapipe
+git+https://github.com/openai/CLIP.git
