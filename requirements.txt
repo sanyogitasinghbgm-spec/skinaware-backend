@@ -20,3 +20,7 @@ matplotlib
 tqdm
 mediapipe
 git+https://github.com/openai/CLIP.git
+
+azure
+azure-storage-blob
+azure-identity
